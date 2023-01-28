@@ -6,6 +6,7 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  box-sizing: border-box;
 }
 
 /* Headings */
@@ -19,6 +20,8 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
@@ -75,4 +78,26 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display: flex; 
+  flex: 1;
+}
+
+.photo-aligned {
+  display: flex;
+  flex: 1;
+}
+
+.photo-space {
+  margin: 20px;
+}
+
+.description-size {
+  font-size: 14px
+}
+
+.center-aligned {
+  justify-content: center;
 }
