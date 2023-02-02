@@ -85,19 +85,20 @@ hr {
   flex: 1;
 }
 
-.photo-aligned {
-  display: flex;
-  flex: 1;
+.group-item-2 {
+  align-items: flex-start;
 }
 
-.photo-space {
-  margin: 20px;
+.group-item-3 {
+  text-align: left;
+  justify-content: flex-end;
+}
+
+.portfolio-group {
+  display: flex;
 }
 
 .description-size {
   font-size: 14px
 }
 
-.center-aligned {
-  justify-content: center;
-}
